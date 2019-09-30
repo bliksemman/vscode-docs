@@ -129,7 +129,7 @@ services:
       - try-node-node_modules:/workspace/node_modules
 
 volumes:
-  - try-node-node_modules:
+  - try-node-node_modules: {}
 ```
 
 You'll also want to be sure the `workspaceFolder` property in `devcontainer.json` matches the place your actual source code mounted:
